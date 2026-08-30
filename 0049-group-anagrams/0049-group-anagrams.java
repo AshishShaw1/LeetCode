@@ -7,9 +7,9 @@ class Solution {
             Arrays.sort(chars);
             str[i] = new String(chars);
         }
-        // HashMap:
-        // key   = sorted string
-        // value = group of original strings
+        /*HashMap:
+        key   = sorted string
+        value = group of original strings*/
         HashMap<String, List<String>> map = new HashMap<>();
         for (int i = 0; i < str.length; i++) {
             String key = str[i];
