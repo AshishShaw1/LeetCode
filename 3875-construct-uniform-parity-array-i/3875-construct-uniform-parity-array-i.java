@@ -38,6 +38,7 @@ class Solution {
                 nums2[i] = nums1[i];
             }
         }
+        // Checking if nums2 have all elements odd if yes then returning true else returning false
         boolean all_Odd = false;
         for(int i=0; i<nums2.length; i++){
             if(nums2[i] % 2 != 0){
